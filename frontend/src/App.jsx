@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://ai-interview-assistant-w0rp.onrender.com";
 const FULL_INTERVIEW_ROUNDS = ["Aptitude", "Technical", "Coding", "HR"];
 
 function App() {
