@@ -1,25 +1,72 @@
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.py[cod]
-
-# Virtual environment
-backend-venv/
-
-# Environment variables
-.env
-
-# VS Code
-.vscode/
-
-# Testing
+*.pyo
+*.pyd
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
+# ==============================
+# Python Virtual Environments
+# ==============================
+backend-venv/
+venv/
+.venv/
+env/
+
+# ==============================
+# Environment Variables and API Keys
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Node.js and React Frontend
+# ==============================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Local Databases
+# ==============================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==============================
 # Logs
+# ==============================
 *.log
 
-# Database
-*.db
+# ==============================
+# VS Code and IDE Files
+# ==============================
+.vscode/
+.idea/
 
-# OS files
+# ==============================
+# Operating System Files
+# ==============================
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# ==============================
+# Build and Coverage Files
+# ==============================
+coverage/
+htmlcov/
+dist/
+build/
+# ==============================
+# Uploaded Resumes and User Files
+# ==============================
+backend/uploads/
